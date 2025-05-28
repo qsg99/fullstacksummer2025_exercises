@@ -26,5 +26,5 @@ sequenceDiagram
     server-->>browser: [{ "content": "the providence zoo will soon be saying goodbye to its elephants", "date": "2025-05-28T02:56:39.672Z"}, ... ]
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes, which now includes a new submission
+    Note right of browser: The browser executes the callback function that renders the notes. This diagram is identical to the one representing what happens on the non-SPA notes page.
 ```
